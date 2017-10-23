@@ -1,0 +1,24 @@
+{
+	"impacts": [
+		{
+			"name": "Object 1",
+			"numberOfPossible": 3,
+			"periodStart": "2018"
+		},
+		{
+			"name": "Object 2",
+			"numberOfPossible": 2,
+			"periodStart": "2099"
+		},
+		{
+			"name": "Object 3",
+			"numberOfPossible": 100000,
+			"periodStart": "2116"
+		},
+		{
+			"name": "Object 4",
+			"numberOfPossible": 5,
+			"periodStart": "2018"
+		}
+	]
+}
