@@ -1,0 +1,19 @@
+{
+  "name": "graphhack",
+  "version": "0.0.1",
+  "description": "Graph 4 good!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasocox/graphHackNYC.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasocox/graphHackNYC/issues"
+  },
+  "homepage": "https://github.com/jasocox/graphHackNYC#readme"
+}
