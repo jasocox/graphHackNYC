@@ -1,11 +1,16 @@
 .table {
-  width: 100%;
-  border: solid black 1px;
+  width: 600px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
 }
 
 .column {
   float: left;
-  width: 10%;
+  width: 58px;
   height: 100%;
-  border: solid black 1px;
+  border-left: solid black 1px;
+}
+
+.column:last-child {
+  border-right: solid black 1px;
 }
