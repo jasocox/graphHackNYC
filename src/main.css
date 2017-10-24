@@ -1,16 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .table {
-  width: 600px;
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
+  white-space: nowrap;
+
 }
 
 .column {
-  float: left;
-  width: 58px;
+  display: inline-block;
+  width: 15%;
   height: 100%;
-  border-left: solid black 1px;
 }
 
-.column:last-child {
-  border-right: solid black 1px;
+#col1 {
+  background: black;
+}
+
+#col2 {
+  background: #031c4d;
+}
+
+#col3 {
+  background: #25119d;
+}
+
+#col4 {
+  background: #6a119d;
+}
+
+#col5 {
+  background: #ff2e82;
+}
+
+#col7 {
+  background: #ffa42e;
+}
+
+#col9 {
+  background: #ffda2e;
+}
+
+#col8 {
+  background: #ff5f2e;
+}
+
+#col10 {
+  background: #ff0000;
+}
+
+#col6 {
+  background: #c8069d;
 }
