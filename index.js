@@ -26,7 +26,7 @@ app.get('/impacts', function(req, res) {
     'MATCH (n:Impacts)\n' +
     'WHERE n.PeriodStart <= "2117"\n' +
     'AND n.PossibleImpacts >= "1"\n' +
-    'RETURN n.ObjectName, n.PeriodStart, n.PossibleImpacts\n' +
+    'RETURN n.ObjectName AS name, n.PeriodStart AS start, n.PossibleImpacts AS possibility\n' +
     'ORDER BY toInteger(n.PossibleImpacts) DESC'
   )
   .on('data', function (result) {

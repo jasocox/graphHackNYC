@@ -3,7 +3,7 @@ $(document).ready(function() {
     console.log('Data:', impacts);
 
     JSON.parse(impacts).forEach(function(impact) {
-      console.log(impact.PeriodStart);
+      console.log(impact.start);
     });
   });
 });
